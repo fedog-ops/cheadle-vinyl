@@ -10,13 +10,15 @@ const Navbar = () => {
 const {showCart, setShowCart, totalQuantities} = useStateContext();
   return (
     <div className="navbar-container">
-      <p className="logo">
+      <div className="logo">
         <Link href="/">
           <Image src='/../public/assets/small-logo.png' width='50' height='50' alt=''/>
         </Link>
-      </p>
+      </div>
 
-      <Image src='/../public/assets/big-logo.png' height='100' width='200' alt=''/>
+  <Image src='/../public/assets/big-logo.png' height='100' width='200' alt='' />
+
+      
 
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
 

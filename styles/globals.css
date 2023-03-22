@@ -29,6 +29,7 @@ width: 100%;
 .navbar-container{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 6px 18px;
   position: relative;
 }
@@ -65,12 +66,18 @@ width: 100%;
     margin-left: 6px;
 }
 .logo{
-  color: gray;
-  font-size: 18px;
-
+  cursor: pointer;
+  position: relative;
+  transition: transform .4s ease;
+  border: none;
+  background-color: transparent;
+  bottom: 10%;
+}
+.logo:hover{
+  transform: scale(1.1,1.1);
 }
 .cart-icon{
-  font-size: 25px;
+  font-size: 50px;
   color: gray;
   cursor: pointer;
   position: relative;
