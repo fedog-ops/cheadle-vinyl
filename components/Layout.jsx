@@ -11,6 +11,7 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Head>
         <title>Cheadle Vinyl</title>
+        <link rel="shortcut icon" href="/static/small-logo.png" />
       </Head>
       <header>
         <Navbar />
