@@ -11,11 +11,11 @@ const {showCart, setShowCart, totalQuantities} = useStateContext();
     <div className="navbar-container">
       <div className="logo">
         <Link href="/">
-          <Image src='/../public/assets/small-logo.png' width='50' height='50' alt=''/>
+          <Image src='/../static/small-logo.png' width='50' height='50' alt=''/>
         </Link>
       </div>
 
-  <Image src='/../public/assets/big-logo.png' height='100' width='200' alt='' />
+  <Image src='/../static/big-logo.png' height='100' width='200' alt='' />
 
       
 
