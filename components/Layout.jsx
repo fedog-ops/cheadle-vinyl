@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "./NavBar";
+import NavBar from "./NavBar";
 import Footer from "./Footer";
 
 const Layout = ({ children }) => {
@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
         <link rel="shortcut icon" href="/static/small-logo.png" />
       </Head>
       <header>
-        <Navbar />
+        <NavBar />
       </header>
       <main className="main-container">{children}</main>
       <footer>

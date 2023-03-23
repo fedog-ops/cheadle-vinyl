@@ -5,7 +5,7 @@ import {Cart} from './'
 import { useStateContext } from '../context/StateContext';
 import Image from 'next/image';
 
-const Navbar = () => {
+const NavBar = () => {
 const {showCart, setShowCart, totalQuantities} = useStateContext();
   return (
     <div className="navbar-container">
@@ -31,4 +31,4 @@ const {showCart, setShowCart, totalQuantities} = useStateContext();
   )
 }
 
-export default Navbar
+export default NavBar
