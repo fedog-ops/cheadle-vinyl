@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { AiOutlineShopping, AiFillHome } from 'react-icons/ai'
-import {FaRecordVinyl} from 'react-icons/fa'
+import { AiOutlineShopping } from 'react-icons/ai'
 import {Cart} from './' 
 import { useStateContext } from '../context/StateContext';
 import Image from 'next/image';
