@@ -4,18 +4,19 @@ import { AiOutlineShopping } from 'react-icons/ai'
 import {Cart} from './' 
 import { useStateContext } from '../context/StateContext';
 import Image from 'next/image';
-
+import small_logo from '../public/static/small-logo.png'
+import big_logo from '../public/static/big-logo.png'
 const NavBar = () => {
 const {showCart, setShowCart, totalQuantities} = useStateContext();
   return (
     <div className="navbar-container">
       <div className="logo">
         <Link href="/">
-          <Image src='/../static/small-logo.png' width='50' height='50' alt=''/>
+          <Image src={small_logo} width='50' height='50' alt=''/>
         </Link>
       </div>
 
-  <Image src='/../static/big-logo.png' height='100' width='200' alt='' />
+  <Image src={big_logo} height='100' width='200' alt='' />
 
       
 
